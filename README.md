@@ -19,5 +19,7 @@ The biggest problem with asymmetric encryption is speed. I state this in every o
 
 <img width="1299" height="326" alt="2" src="https://github.com/user-attachments/assets/c1fe8610-ec39-4d31-9d5b-026b5edcdae6" />
 
+I believe this is the simplest explanation of Asymmetric Encryption. The misconception that many people have is that data transfer is done with Asymmetric encryption. I believe I have eliminated this misconception with the diagram I explained above. When we mention Asymmetric encryption, HTTPS and SSH protocols may come to mind. I can briefly say that the working principles of Asymmetric encryption in HTTPS and SSH protocols are different. To understand this, we need to know about Certificate Authorities and the working principle of SSH-Key. You can find these on my GitHub.
+
 
 
