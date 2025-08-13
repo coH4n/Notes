@@ -1,2 +1,2 @@
 ## Password Encryption
-<img width="500" height="350" alt="1" src="https://github.com/user-attachments/assets/5be47166-ab2d-4e93-aaed-5006d1f326cc" />
+<img width="633" height="277" alt="1" src="https://github.com/user-attachments/assets/e7d372d8-492e-429a-8565-757c27dfdaae" />
