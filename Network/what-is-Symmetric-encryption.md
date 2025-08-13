@@ -1,1 +1,4 @@
 ## Symmetric Encryption:
+In this article, I will explain symmetric encryption, a form of encryption that dates back thousands of years. I will try to present its working principle in the simplest way possible, without going into the mathematical basis. Symmetric encryption is a form of encryption that we use very often in today's world. Think about it: when you leave your house and lock the door, if someone else has a copy of your key (a sibling, a parent, etc.), they can open the door. Based on this example, in the world of the internet, when we want to send data with a password, the key used to encrypt the data is also used for decryption. To explain this with an example:
+
+<img width="513" height="248" alt="1" src="https://github.com/user-attachments/assets/8a8316f9-56ec-4bfe-992f-b6872c3bad35" />
