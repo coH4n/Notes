@@ -17,4 +17,7 @@ Yes, this working principle is correct. The reason is that Private Key and Publi
 
 The biggest problem with asymmetric encryption is speed. I state this in every one of my articles. In the computer world, speed is very important. Think about it, when we want to send data, are we going to constantly encrypt it with a Public Key and send it to the other party? Of course not. This is where the situation arises where asymmetric encryption and symmetric encryption work together. In symmetric encryption, we know that the key used for encryption must be the same as the key used for decryption. So how will the recipient securely get this secret key? We solve this problem with asymmetric encryption. We deliver the secret key we want to send to the other party by encrypting it with the other party's Public Key. I believe you will have a better grasp of this situation with the example below.
 
+<img width="1299" height="326" alt="2" src="https://github.com/user-attachments/assets/c1fe8610-ec39-4d31-9d5b-026b5edcdae6" />
+
+
 
