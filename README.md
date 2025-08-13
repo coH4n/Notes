@@ -6,6 +6,8 @@ You can freely share this key everywhere, whether it is secure or not. When a pe
 ### Private Key: 
 The key that should not be shared with anyone except the relevant person is the key that we can use to decrypt the data sent to us with our Public Key.
 
+To explain the working principle, when a person wants to send data to us, they encrypt the data with our publicly available Public Key and send it to us. We can then decrypt the Public Key's encryption using our Private Key. If we want to send data to a person, we repeat the same process. I believe you will have a better grasp of the situation if you combine this working principle I have explained with the image below.
+
 <img width="500" height="277" alt="1" src="https://github.com/user-attachments/assets/e7d372d8-492e-429a-8565-757c27dfdaae" />
 
 
