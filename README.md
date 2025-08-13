@@ -11,6 +11,8 @@ To explain the working principle, when a person wants to send data to us, they e
 If you have read an article about the working principle of asymmetric encryption before this one, I assume you have seen a text like this.
 When we want to send data, we encrypt it with our Private Key and send it to the destination, and the destination decrypts the encryption with our Public Key.
 
+Yes, this working principle is correct. The reason is that Private Key and Public Key can decrypt each other. However, since the Public Key is held by everyone, this creates a security problem. When you read forums like Stack Overflow or Quora, a lot of people discuss this issue. I think it would be useful to know this because, in interviews, some of our instructors may ask you to explain this situation in addition to the question, "What is asymmetric encryption and how does it work?" But generally, the answer to this question is the working principle I explained above.
+
 <img width="500" height="277" alt="1" src="https://github.com/user-attachments/assets/e7d372d8-492e-429a-8565-757c27dfdaae" />
 
 
