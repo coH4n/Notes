@@ -13,6 +13,8 @@ When we want to send data, we encrypt it with our Private Key and send it to the
 
 Yes, this working principle is correct. The reason is that Private Key and Public Key can decrypt each other. However, since the Public Key is held by everyone, this creates a security problem. When you read forums like Stack Overflow or Quora, a lot of people discuss this issue. I think it would be useful to know this because, in interviews, some of our instructors may ask you to explain this situation in addition to the question, "What is asymmetric encryption and how does it work?" But generally, the answer to this question is the working principle I explained above.
 
+The biggest problem with asymmetric encryption is speed. I state this in every one of my articles. In the computer world, speed is very important. Think about it, when we want to send data, are we going to constantly encrypt it with a Public Key and send it to the other party? Of course not. This is where the situation arises where asymmetric encryption and symmetric encryption work together. In symmetric encryption, we know that the key used for encryption must be the same as the key used for decryption. So how will the recipient securely get this secret key? We solve this problem with asymmetric encryption. We deliver the secret key we want to send to the other party by encrypting it with the other party's Public Key. I believe you will have a better grasp of this situation with the example below.
+
 <img width="500" height="277" alt="1" src="https://github.com/user-attachments/assets/e7d372d8-492e-429a-8565-757c27dfdaae" />
 
 
