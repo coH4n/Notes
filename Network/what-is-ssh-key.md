@@ -3,3 +3,4 @@
 In this article, I will talk about the SSH protocol, which we use very frequently in today's world and is known by everyone. To define SSH very briefly, we can say it's a method used to securely send commands to a computer over an insecure network. However, in this article, rather than explaining how the SSH protocol works, I will try to explain how we open a session with a remote computer—that is, the id_rsa and id_rsa.pub keys that everyone sees in CTFs.
 
 Even though I create passwords with different combinations, I sometimes have my doubts about their security. I can't even imagine what simple password combinations people create, because the passwords they create might be the same as the ones in data breaches that occur all over the world. These passwords from data breaches can be accessed very easily through websites. For this reason, there is a much better and more secure alternative than using passwords in the SSH Protocol: SSH-KEY.
+### SSH-KEY Nasıl Çalışır:
