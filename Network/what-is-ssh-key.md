@@ -4,3 +4,5 @@ In this article, I will talk about the SSH protocol, which we use very frequentl
 Even though I create passwords with different combinations, I sometimes have my doubts about their security. I can't even imagine what simple password combinations people create, because the passwords they create might be the same as the ones in data breaches that occur all over the world. These passwords from data breaches can be accessed very easily through websites. For this reason, there is a much better and more secure alternative than using passwords in the SSH Protocol: SSH-KEY.
 
 ### How does ssh key work?:
+The working principle of an SSH Key is based on the private key and public key that everyone hears so much about. To summarize what they are, we can break them down into the following sections:
+**Private Key:**This is a type of key that's declared specifically for the individual and should never be shared with anyone. If someone else gets ahold of this key, they could impersonate the person and lead to undesirable situations.
