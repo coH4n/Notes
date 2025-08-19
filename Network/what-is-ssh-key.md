@@ -18,4 +18,13 @@ Think of a scenario where we want to connect to our web server using the SSH pro
 To summarize the situation above in bullet points, we can say:
 
 **1:** We declare our intention to connect to the relevant server via the SSH protocol by using our Public Key.
-**2:**The relevant server then compares the public key we've provided with the public key list it has and approves it.
+
+**2:** The relevant server then compares the public key we've provided with the public key list it has and approves it.
+
+**3.** To establish the connection, the server generates a random string, encrypts it with the public key to verify the other party's identity, and sends it to the other party.
+
+**4:** The client then decrypts the public key using its private key.
+
+**5:** The client sends this value to the server.
+ 
+**6:** The SSH connection is established.
