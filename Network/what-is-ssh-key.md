@@ -11,3 +11,5 @@ The working principle of an SSH Key is based on the private key and public key t
 \n
 
 **Public Key:** As its name implies, we can say this is a key that's perfectly fine for everyone to know.
+
+Think of a scenario where we want to connect to our web server using the SSH protocol. For the other side to identify us, we need to have the Public Key, which we share publicly, on the relevant web server. I believe that if I explain this working principle step-by-step through a diagram, you will have a better grasp of the situation. (To better understand the events, it is necessary to know about asymmetric encryption, which is available on my website.)
