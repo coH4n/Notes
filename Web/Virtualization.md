@@ -14,7 +14,7 @@ We can say it's a software that runs on a physical server or host computer, or a
 
 <img width="512" height="136" alt="1" src="https://github.com/user-attachments/assets/ecdc26b8-f70e-4ee1-a2e2-7bf8ec7b2074" />
 
-**TYPE 1(native or bare-metal hypervisors):**
+### TYPE 1(native or bare-metal hypervisors): ###
 
 Bare-metal hypervisors are a type of hypervisor that is the operating system itself, rather than being built on top of a computer's operating system. I believe that if we look at the image below, we will get a better grasp of the situation.
 
@@ -23,8 +23,6 @@ Bare-metal hypervisors are a type of hypervisor that is the operating system its
 We can say that Type 1 hypervisors are the most widely used type in the industry and are also the type of hypervisor used to virtualize servers today. Because this operating system, installed on the physical machine, has a very simple structure, we perform the new virtual machine configuration process through a management console.
 
 I should note here that many people are under the impression that hypervisors are free. While it's true you can install the hypervisor on ten servers for free, you'll need a management console to configure them, and you will have to pay for a licensed one. In a very simple way, this is how I would explain a Type 1 hypervisor.
-
-### ADVANTAGES ###
 
 **TYPE 1 ADVANTAGES:**
 
@@ -35,6 +33,15 @@ I should note here that many people are under the impression that hypervisors ar
 **More secure.** Because there is no host operating system in a Type 1 hypervisor deployment, the attack surface of this deployment is much smaller than that of Type 2. This also means there will be significantly fewer security vulnerabilities that threat actors can exploit.
 
 **More stable.** The absence of a host operating system also eliminates problems related to the host operating system that could affect the performance and availability of the virtual machines running on the hypervisor.
+
+**TYPE 1 Disadvantages:**
+
+**Installation and management are more difficult.** With a Type 1 hypervisor, you have to start from scratch because you are dealing with a bare-metal server. Even though you still need to install a host operating system in a Type 2 deployment, IT administrators (even junior administrators) are more familiar with operating system installation and configuration. For this reason, they may find managing Type 1 more difficult.
+
+**It relies on an external management interface.** Typically, Type 1 hypervisors are managed through an external management interface. This means that to set up a Type 1 hypervisor, you'll need a separate system or computer.
+
+### TYPE 2(hosted hypervisor): ###
+
 
 
  
