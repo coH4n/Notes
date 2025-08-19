@@ -22,6 +22,14 @@ To get a better grasp of the working principle of Certificate Authorities, let's
 <img width="686" height="237" alt="2" src="https://github.com/user-attachments/assets/9404dfed-4b70-4313-832a-a2530ed3ba9a" />
 
 To make it clearer, here is a summary of the image in bullet points.
+
 **1.** The server gives its public key to the client.
 
+**2.** The client asks the Certificate Authorities about the public key it was given.
+
+**3.** The Certificate Authorities inform the client that the public key was signed by one of their members and is trustworthy.
+
+**4.** The client uses the Public Key to send its confidential information to the server. 
+
+**5.** The server uses its private key to decrypt the data that was encrypted with its public key.
 
