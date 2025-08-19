@@ -23,3 +23,13 @@ Bare-metal hypervisors are a type of hypervisor that is the operating system its
 We can say that Type 1 hypervisors are the most widely used type in the industry and are also the type of hypervisor used to virtualize servers today. Because this operating system, installed on the physical machine, has a very simple structure, we perform the new virtual machine configuration process through a management console.
 
 I should note here that many people are under the impression that hypervisors are free. While it's true you can install the hypervisor on ten servers for free, you'll need a management console to configure them, and you will have to pay for a licensed one. In a very simple way, this is how I would explain a Type 1 hypervisor.
+
+### ADVANTAGES ###
+**TYPE 1 ADVANTAGES:**
+**It is generally faster than Type 2.** The reason for this is that Type 1 hypervisors have direct access to the underlying physical host's resources, such as the CPU, RAM, storage, and network interfaces. Therefore, the latency of Type 1 hypervisors is lower compared to Type 2.
+
+**More resource-rich.** The Type 1 hypervisor does not need to share its core resources with a host operating system. This allows it to access a greater amount of CPU, RAM, storage, and network bandwidth. This feature also contributes to the performance of the Type 1 hypervisor.
+
+ 
+
+
