@@ -33,3 +33,9 @@ To make it clearer, here is a summary of the image in bullet points.
 
 **5.** The server uses its private key to decrypt the data that was encrypted with its public key.
 
+In a nutshell, I can say that this is the working principle of Certificate Authorities or SSL/TLS. This is a topic that is essential to know, and it's also one of the questions that may come up in interviews. Additionally, as extra information, I have provided the members of the certificate authorities that have signed the most public keys below.
+
+<img width="425" height="270" alt="3" src="https://github.com/user-attachments/assets/b1afdf04-d204-4c05-af74-417553252f76" />
+
+Of course, many of us will have the thought, "I'll also just get a public key signed by the Certificate Authorities for the relevant domain address." However, Certificate Authorities have methods to verify the person requesting the signature for a given domain address, which means this approach is a useless method.
+
