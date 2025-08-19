@@ -5,10 +5,9 @@ Even though I create passwords with different combinations, I sometimes have my 
 
 ### How does ssh key work?:
 The working principle of an SSH Key is based on the private key and public key that everyone hears so much about. To summarize what they are, we can break them down into the following sections:
-\n
 
 **Private Key:** This is a type of key that's declared specifically for the individual and should never be shared with anyone. If someone else gets ahold of this key, they could impersonate the person and lead to undesirable situations.
-\n
+
 
 **Public Key:** As its name implies, we can say this is a key that's perfectly fine for everyone to know.
 
