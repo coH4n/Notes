@@ -16,3 +16,9 @@ Based on these problems, a community we call Certificate Authorities was born. W
 To put it more clearly, if the public key provided by the other party has not been signed by any of the members of these certificate authorities, it is considered untrustworthy.
 
 To get a better grasp of the working principle of Certificate Authorities, let's look at the heading below.
+
+**How Certificate Authorities work:**
+
+<img width="686" height="237" alt="2" src="https://github.com/user-attachments/assets/9404dfed-4b70-4313-832a-a2530ed3ba9a" />
+
+
