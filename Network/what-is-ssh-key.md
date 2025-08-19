@@ -28,3 +28,13 @@ To summarize the situation above in bullet points, we can say:
 **5:** The client sends this value to the server.
  
 **6:** The SSH connection is established.
+
+We can say this is why the commonly seen id_rsa and id_rsa.pub keys are found in the same directory. It is also worth noting that the values I provided for the Public and Private Keys are not real. In the real world, an example of these values is available in the image I provided below.
+
+<img width="530" height="556" alt="last-ssh-2" src="https://github.com/user-attachments/assets/e3c4c609-649a-402a-aa89-836410c24cc3" />
+
+Of course, if you want to connect using the SSH protocol, there is specific software available for your operating system. If you're using macOS or Linux, you can access this software through the terminal, while for Windows, the most commonly used application is PuTTY. It's important to note that you must be very careful about the applications you download on Windows, as there are many fake applications on the market. This could cause your private key to fall into the wrong hands or lead to a virus on your computer.
+
+
+
+
