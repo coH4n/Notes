@@ -25,10 +25,17 @@ We can say that Type 1 hypervisors are the most widely used type in the industry
 I should note here that many people are under the impression that hypervisors are free. While it's true you can install the hypervisor on ten servers for free, you'll need a management console to configure them, and you will have to pay for a licensed one. In a very simple way, this is how I would explain a Type 1 hypervisor.
 
 ### ADVANTAGES ###
+
 **TYPE 1 ADVANTAGES:**
+
 **It is generally faster than Type 2.** The reason for this is that Type 1 hypervisors have direct access to the underlying physical host's resources, such as the CPU, RAM, storage, and network interfaces. Therefore, the latency of Type 1 hypervisors is lower compared to Type 2.
 
 **More resource-rich.** The Type 1 hypervisor does not need to share its core resources with a host operating system. This allows it to access a greater amount of CPU, RAM, storage, and network bandwidth. This feature also contributes to the performance of the Type 1 hypervisor.
+
+**More secure.** Because there is no host operating system in a Type 1 hypervisor deployment, the attack surface of this deployment is much smaller than that of Type 2. This also means there will be significantly fewer security vulnerabilities that threat actors can exploit.
+
+**More stable.** The absence of a host operating system also eliminates problems related to the host operating system that could affect the performance and availability of the virtual machines running on the hypervisor.
+
 
  
 
