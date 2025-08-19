@@ -21,4 +21,7 @@ To get a better grasp of the working principle of Certificate Authorities, let's
 
 <img width="686" height="237" alt="2" src="https://github.com/user-attachments/assets/9404dfed-4b70-4313-832a-a2530ed3ba9a" />
 
+To make it clearer, here is a summary of the image in bullet points.
+**1.** The server gives its public key to the client.
+
 
