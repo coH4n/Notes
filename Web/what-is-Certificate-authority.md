@@ -1,1 +1,2 @@
  ## CERTIFICATION AUTHORITY
+Hello everyone. In this article, I will try to explain how Certificate Authorities (CAs), or as everyone knows them, SSL/TLS, work. I also want to state that in this article, I'll be using the term Certificate Authorities. It's also beneficial to note that before reading this, it would be useful to have some knowledge about asymmetric encryption and the HTTPS handshake process. You can find information on these topics on my GitHub page.
