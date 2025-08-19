@@ -17,4 +17,5 @@ We can say it's a software that runs on a physical server or host computer, or a
 **TYPE 1(native or bare-metal hypervisors):**
 
 Bare-metal hypervisors are a type of hypervisor that is the operating system itself, rather than being built on top of a computer's operating system. I believe that if we look at the image below, we will get a better grasp of the situation.
+
 <img width="519" height="264" alt="2" src="https://github.com/user-attachments/assets/b53f5319-1154-4da6-b1f5-67f486785342" />
