@@ -50,13 +50,29 @@ And based on this, to know the answer to the question of what determines the typ
 
 If we were to look at what each of the headings in the diagram does, one by one, and summarize them as subheadings...
 
+<img width="613" height="124" alt="http-7" src="https://github.com/user-attachments/assets/93542eb0-43f5-41d0-9fb1-85016260a4a4" />
 
+And if we translate these into a language we can understand...
 
+<img width="554" height="74" alt="http-8" src="https://github.com/user-attachments/assets/588f1bf6-f8a0-4876-a5ec-d115a138aded" />
 
+**Http Request Type:** As a client, we specify the type of request we'll make to the other party using HTTP request types. The most commonly used types are GET (to retrieve data) and POST (to send data). If you'd like to look at other HTTP request types, you can find them at this address: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods.
 
+**Resources:** The URL defines the address we use to access a specific website in the web world. Let's use an example.
 
+<img width="254" height="186" alt="http-9" src="https://github.com/user-attachments/assets/21b74726-333c-411c-ab66-89e05b337c37" />
 
+Of course, because a computer can't read a domain address like this, the relevant server's IP address is determined by DNS, and then a request is made to that address by the HTTP protocol. In such a case, the following diagram appears.
 
+http://facebook.com --------------------------------> http://157.240.196.35/index.html
 
+I want to give a small piece of information here: the reason we don't see the port number in the URL bar is that TCP protocol defaults to port number 80. If I wanted to make the HTTP diagram above a little more explanatory...
+**Protocol://Host:Port/Path**
+
+**HTTP Version:** It specifies the HTTP version used. There are differences between HTTP versions, which you can find on my website.
+
+To get a better grasp of the headings explained in the diagram, here is a real-world example of the diagram described below.
+
+<img width="645" height="291" alt="http-10" src="https://github.com/user-attachments/assets/9ee5d221-4d0f-4f42-a6ce-fe3c4604bbe5" />
 
 
