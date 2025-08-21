@@ -43,6 +43,17 @@ I mentioned that it's a state of a client requesting information from a server. 
 **Full Request:** Full Request, GET istek satırında, protokol sürümüde gösterilir. Bunu daha anlamlı kılmak için aşağıdaki
 Full Request şemasına bakabiliriz.
 
+<img width="657" height="108" alt="http-5" src="https://github.com/user-attachments/assets/01661c67-4362-452d-bec3-d166327ef8c9" />
+
+
+
+
+
+
+
+
+
+
 
 
 
