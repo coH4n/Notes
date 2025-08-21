@@ -84,9 +84,19 @@ We mentioned that this is the state of the server returning information to the c
 
 **Status Line:** This is the response header sent from the server to the client. The client understands whether the request was successful or not by these status codes. These are generally the status codes.
 
-**1xx status =**Informational status codes. 
+**1xx status =** Informational status codes. 
+**2xx status =** Status codes that indicate the request was successful.
+**3xx status =** Status codes that include redirection.
+**4xx status =** Status codes that indicate a client-side error.
+**5xx status =** Status codes that indicate a server-side error.
 
+If you want to learn about these status codes in detail, you can check out the following address: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status.
 
+Below, I believe that by looking at an HTTP response tree from the diagram and a real-world example, you'll get a better grasp of the situation.
+
+<img width="766" height="451" alt="http-12" src="https://github.com/user-attachments/assets/fa223466-b33d-4de7-b8f2-2307d9372409" />
+
+When we first see these, they can be confusing. To summarize the answer to the question, "What is HTTP and how does it work?", we can say it's the protocol we use to retrieve information from a web server in World Wide Web technology, and that it communicates with one another through HTTP Request Types and HTTP Status Codes.
 
 
 
