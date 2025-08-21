@@ -24,7 +24,7 @@ We can say that Type 1 hypervisors are the most widely used type in the industry
 
 I should note here that many people are under the impression that hypervisors are free. While it's true you can install the hypervisor on ten servers for free, you'll need a management console to configure them, and you will have to pay for a licensed one. In a very simple way, this is how I would explain a Type 1 hypervisor.
 
-**TYPE 1 ADVANTAGES:**
+**TYPE 1 Advantages**
 
 **It is generally faster than Type 2.** The reason for this is that Type 1 hypervisors have direct access to the underlying physical host's resources, such as the CPU, RAM, storage, and network interfaces. Therefore, the latency of Type 1 hypervisors is lower compared to Type 2.
 
@@ -41,6 +41,21 @@ I should note here that many people are under the impression that hypervisors ar
 **It relies on an external management interface.** Typically, Type 1 hypervisors are managed through an external management interface. This means that to set up a Type 1 hypervisor, you'll need a separate system or computer.
 
 ### TYPE 2(hosted hypervisor): ###
+
+Unlike a Type 1 hypervisor, a Type 2 hypervisor can be described as software built on top of the operating system layer. Although it may seem less prominent than the other hypervisor type in today's world, it is the hypervisor type adopted by typical users. Many of us accessing our virtual machines via VirtualBox is an example of a hosted hypervisor. To get a better grasp of the situation, we should look at the image below.
+
+<img width="376" height="362" alt="thiss" src="https://github.com/user-attachments/assets/7ae8c1b6-9da2-4324-ad0e-11713eafe4c5" />
+
+As you can see in the image above, the hypervisor acts as a bridge between virtualization and the operating system on the computer itself. If we were to look at the advantages and disadvantages of a TYPE 2 hypervisor...
+
+**TYPE 2 Advantages:**
+
+**More affordable.** The superior features of Type 1 hypervisors in terms of reliability, security, and efficiency come at a price. They are naturally more expensive. Conversely, Type 2 hypervisors are more cost-effective. Thus, although they can theoretically be used in enterprise use cases, the target market for Type 2 hypervisors is normally end-users.
+
+**Easier to use.** Affordability is not the only reason Type 2 hypervisors are more suitable for end-users. Type 2 hypervisors are also generally easier to use. Therefore, they are more suitable for an audience with less technical knowledge.
+
+
+
 
 
 
