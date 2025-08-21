@@ -39,8 +39,7 @@ I mentioned that it's a state of a client requesting information from a server. 
 
 **Simple Request:** We can say that a Simple Request consists of a single GET line that names the requested page, without a protocol version. To make this more meaningful, we can look at the Simple Request diagram below.
 
-
-
+<img width="604" height="105" alt="http-4" src="https://github.com/user-attachments/assets/7dec3455-ce87-494f-9016-4a9d7eb1ec8d" />
 
 
 
