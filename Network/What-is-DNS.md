@@ -54,6 +54,17 @@ The server where the DNS records of the desired IP address are stored. This serv
 
 A DNS process occurs under three conditions. I explained the first condition using the diagram above. To explain the other two conditions using a diagram as well...
 
+1.If an IP address is found in the client's cache.
+
+<img width="983" height="98" alt="dns-33" src="https://github.com/user-attachments/assets/fb028aa4-197d-4af1-83df-0a4eb68fddbe" />
+
+2.If an unknown IP address is in the client's cache but is in the ISP service provider's cache.
+
+<img width="750" height="145" alt="dns-4" src="https://github.com/user-attachments/assets/3b33cb75-864e-4ece-bbd2-86f1202313eb" />
+
+
+
+
 
 
 
