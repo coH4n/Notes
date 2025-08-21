@@ -67,6 +67,7 @@ Of course, because a computer can't read a domain address like this, the relevan
 http://facebook.com --------------------------------> http://157.240.196.35/index.html
 
 I want to give a small piece of information here: the reason we don't see the port number in the URL bar is that TCP protocol defaults to port number 80. If I wanted to make the HTTP diagram above a little more explanatory...
+
 **Protocol://Host:Port/Path**
 
 **HTTP Version:** It specifies the HTTP version used. There are differences between HTTP versions, which you can find on my website.
