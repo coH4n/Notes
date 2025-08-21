@@ -41,5 +41,9 @@ I mentioned that it's a state of a client requesting information from a server. 
 
 <img width="604" height="105" alt="http-4" src="https://github.com/user-attachments/assets/7dec3455-ce87-494f-9016-4a9d7eb1ec8d" />
 
+**Full Request:** Full Request, GET istek satırında, protokol sürümüde gösterilir. Bunu daha anlamlı kılmak için aşağıdaki
+Full Request şemasına bakabiliriz.
+
+
 
 
