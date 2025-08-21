@@ -74,6 +74,24 @@ I want to give a small piece of information here: the reason we don't see the po
 
 To get a better grasp of the headings explained in the diagram, here is a real-world example of the diagram described below.
 
-<img width="645" height="291" alt="http-10" src="https://github.com/user-attachments/assets/9ee5d221-4d0f-4f42-a6ce-fe3c4604bbe5" />
+<img width="645" height="291" alt="http-10" src="https://github.com/user-attachments/assets/9ee5d221-4d0f-4f42-a6ce-fe3c4604bbe5" />q
+
+### HTTP RESPONSE: ###
+
+We mentioned that this is the state of the server returning information to the client. The HTTP Response headings have some differences compared to the HTTP Request headings.
+
+<img width="129" height="147" alt="http-11" src="https://github.com/user-attachments/assets/ed35c632-5190-4dae-97b2-2124a304a0bc" />
+
+**Status Line:** This is the response header sent from the server to the client. The client understands whether the request was successful or not by these status codes. These are generally the status codes.
+
+**1xx status =**Informational status codes. 
+
+
+
+
+
+
+
+
 
 
