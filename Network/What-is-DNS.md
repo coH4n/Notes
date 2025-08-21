@@ -24,8 +24,35 @@ To truly understand the FQDN structure, you need to examine the DNS tree structu
 
 <img width="1016" height="600" alt="dns-2" src="https://github.com/user-attachments/assets/cb3f2cfe-5b3d-4a88-8997-ad02d20dcad6" />
 
+**1-** A request is made for hedef.com by the client.
+**2-** The Internet Service Provider (ISP) checks its own cache.
+**3-** The IP address that is not in the cache is sent to the DNS resolver (name server).
+**4-** The DNS resolver asks the Root server.
+**5-** The root server, upon seeing the .com extension, redirects to the IP address of the TLD server that knows the records related to .com.
+**6-** The DNS Resolver asks the relevant TLD server for the IP address of the hedef.com domain.
+**7-** The TLD server, after seeing the .com. extension, redirects to the IP address of the NS (Name Server) that holds the records for hedef.com.
+**8-** The DNS resolver asks the relevant Name Server for the IP address of the hedef.com domain.
+**9-** The Name Server sends the A record of the hedef.com domain to the DNS resolver.
+**10-** The DNS Resolver sends the IP address to the ISP.
+**11-** The ISP caches the relevant IP address.
+**12-** The ISP sends the relevant IP address to the client.
+**13-** Client,ilgili IP adresini ön belleğine kaydediyor.
 
+The situation described above can be called a diagram and bullet point definition of how DNS works. So, what are the roles of these DNS servers within themselves? To explain them in very short headings...
 
+**Root Server:**
+
+It sits at the top of the DNS system and is the first address where the process of converting a domain name to an IP address begins. There are a total of 13 Root Servers in the world.
+
+**Top-Level Domain (TLD) Server:**
+
+The server that holds the address of the relevant Name Server for the IP address to be learned. TLD servers are also divided into branches such as commerce (.com), education (.edu), and so on.
+
+**Name Server:**
+
+The server where the DNS records of the desired IP address are stored. This server returns the relevant server's IP address to the client, declaring that the DNS process has been successfully completed.
+
+A DNS process occurs under three conditions. I explained the first condition using the diagram above. To explain the other two conditions using a diagram as well...
 
 
 
