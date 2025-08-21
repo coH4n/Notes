@@ -72,7 +72,7 @@ A DNS process occurs under three conditions. I explained the first condition usi
 
 2.If an unknown IP address is in the client's cache but is in the ISP service provider's cache.
 
-<img width="750" height="145" alt="dns-4" src="https://github.com/user-attachments/assets/3b33cb75-864e-4ece-bbd2-86f1202313eb" />
+<img width="650" height="145" alt="dns-4" src="https://github.com/user-attachments/assets/3b33cb75-864e-4ece-bbd2-86f1202313eb" />
 
 By caching well-known IP addresses, DNS resolver servers are prevented from being overloaded. And even more importantly, we save time. In the network world, time is always very important.
 
