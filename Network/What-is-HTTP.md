@@ -41,9 +41,11 @@ I mentioned that it's a state of a client requesting information from a server. 
 
 
 **Full Request:** In a Full Request, the protocol version is also shown in the GET request line. To make this more meaningful, we can look at the Full Request diagram below.
+
 <img width="657" height="108" alt="http-5" src="https://github.com/user-attachments/assets/01661c67-4362-452d-bec3-d166327ef8c9" />
 
 And based on this, to know the answer to the question of what determines the type of an HTTP request, we need to look at the HTTP request message format diagram below.
+
 <img width="121" height="180" alt="http-6" src="https://github.com/user-attachments/assets/ce3b9061-6160-406c-a850-53c81fea9940" />
 
 
