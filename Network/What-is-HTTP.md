@@ -48,6 +48,7 @@ And based on this, to know the answer to the question of what determines the typ
 
 <img width="121" height="180" alt="http-6" src="https://github.com/user-attachments/assets/ce3b9061-6160-406c-a850-53c81fea9940" />
 
+If we were to look at what each of the headings in the diagram does, one by one, and summarize them as subheadings...
 
 
 
