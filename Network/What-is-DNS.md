@@ -16,7 +16,7 @@ You stated that DNS is the system that translates a domain name into an IP addre
 
 Yes, it's easy to understand from a diagram or visual, but one of the first questions I had was, "What are these determined by?" The answer to this question lies in knowing about FQDN (Fully Qualified Domain Name). The Turkish translation is "Tamamen nitelikli alan adı." If I were to go over the FQDN example below...
 
-<img width="1210" height="231" alt="dns-1" src="https://github.com/user-attachments/assets/b5f60b26-ba83-4077-b4ef-e1329f768d8a" />
+<img width="1210" height="98" alt="dns-1" src="https://github.com/user-attachments/assets/b5f60b26-ba83-4077-b4ef-e1329f768d8a" />
 
 DNS servers use the FQDN (Fully Qualified Domain Name) address we saw above to parse incoming DNS requests within their authorized scope and find the corresponding IP address. This process works from the rightmost dot to the leftmost Second-Level Domain.
 
