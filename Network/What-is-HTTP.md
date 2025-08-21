@@ -31,7 +31,7 @@ The image you see above is a type of visual that everyone sees very frequently o
 
 I will explain the Request and Response headings here, but the Connection part should definitely be known as well.
 
-### HTTP REQUEST: ###
+### HTTP Request: ###
 
 
 
