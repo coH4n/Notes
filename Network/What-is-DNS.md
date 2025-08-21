@@ -22,7 +22,7 @@ DNS servers use the FQDN (Fully Qualified Domain Name) address we saw above to p
 
 To truly understand the FQDN structure, you need to examine the DNS tree structure, but I won't go into that here because I want to explain DNS to you in the simplest and most understandable way possible. However, in the diagram below, which explains a DNS request from start to finish, I believe you'll be able to visualize how it all works.
 
-<img width="1016" height="600" alt="dns-2" src="https://github.com/user-attachments/assets/cb3f2cfe-5b3d-4a88-8997-ad02d20dcad6" />
+<img width="900" height="500" alt="dns-2" src="https://github.com/user-attachments/assets/cb3f2cfe-5b3d-4a88-8997-ad02d20dcad6" />
 
 **1-** A request is made for hedef.com by the client.
 
