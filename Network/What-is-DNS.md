@@ -62,8 +62,9 @@ A DNS process occurs under three conditions. I explained the first condition usi
 
 <img width="750" height="145" alt="dns-4" src="https://github.com/user-attachments/assets/3b33cb75-864e-4ece-bbd2-86f1202313eb" />
 
+By caching well-known IP addresses, DNS resolver servers are prevented from being overloaded. And even more importantly, we save time. In the network world, time is always very important.
 
-
+In this article, I tried to explain the working principle of DNS in the most understandable way possible. Of course, there are questions that need to be asked, like what the role of SSL/TLS is in the background, or how the Shared Hosting situation works, but if a question like this comes up in an interview, I believe you can answer it very easily using this diagram.
 
 
 
