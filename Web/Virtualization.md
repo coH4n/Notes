@@ -54,6 +54,15 @@ As you can see in the image above, the hypervisor acts as a bridge between virtu
 
 **Easier to use.** Affordability is not the only reason Type 2 hypervisors are more suitable for end-users. Type 2 hypervisors are also generally easier to use. Therefore, they are more suitable for an audience with less technical knowledge.
 
+**TYPE 2 Disadvantages:**
+
+**Slower than Type 1.** Having a layer (the host operating system) between the Type 2 hypervisor and the underlying physical host increases latency. Therefore, Type 2 hypervisors are generally slower than their Type 1 counterparts.
+
+**Not available as a host resource.** Since the Type 2 hypervisor shares the CPU, RAM, storage, and network bandwidth from the underlying physical infrastructure with the host operating system, the amount of resources the Type 2 hypervisor can access is limited compared to that of a Type 1.
+
+**Less secure.** The presence of a host operating system increases the attack surface of the entire system. This means there are more vulnerabilities for threat actors to exploit.
+
+**Less stable.** Any performance and availability issues in the host operating system will definitely affect the Type 2 hypervisor and its VMs running on it.
 
 
 
