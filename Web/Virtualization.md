@@ -44,7 +44,7 @@ I should note here that many people are under the impression that hypervisors ar
 
 Unlike a Type 1 hypervisor, a Type 2 hypervisor can be described as software built on top of the operating system layer. Although it may seem less prominent than the other hypervisor type in today's world, it is the hypervisor type adopted by typical users. Many of us accessing our virtual machines via VirtualBox is an example of a hosted hypervisor. To get a better grasp of the situation, we should look at the image below.
 
-<img width="376" height="362" alt="thiss" src="https://github.com/user-attachments/assets/7ae8c1b6-9da2-4324-ad0e-11713eafe4c5" />
+<img width="376" height="300" alt="thiss" src="https://github.com/user-attachments/assets/7ae8c1b6-9da2-4324-ad0e-11713eafe4c5" />
 
 As you can see in the image above, the hypervisor acts as a bridge between virtualization and the operating system on the computer itself. If we were to look at the advantages and disadvantages of a TYPE 2 hypervisor...
 
