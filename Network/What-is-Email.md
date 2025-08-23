@@ -20,3 +20,14 @@ It is a protocol used by local email clients such as Outlook, Thunderbird, Windo
 
 -It saves storage space on the mail server because emails are deleted after being downloaded to a device, provided that the configuration is set this way.
 
+**Disadvantages:**
+
+-In any situation that might happen to your computer, undesirable situations can arise (such as viruses, data loss, or crashes).
+
+-The lack of synchronization. To elaborate on this point: although POP3 can be configured on multiple clients, the first client that accesses the POP3 server will get the email, and the other clients will not be able to. I have to say that if you are managing emails from multiple clients, I cannot say that the POP3 protocol is a very suitable protocol for this type of use.
+
+
+### IMAP ###
+
+
+
