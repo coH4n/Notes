@@ -26,8 +26,31 @@ It is a protocol used by local email clients such as Outlook, Thunderbird, Windo
 
 -The lack of synchronization. To elaborate on this point: although POP3 can be configured on multiple clients, the first client that accesses the POP3 server will get the email, and the other clients will not be able to. I have to say that if you are managing emails from multiple clients, I cannot say that the POP3 protocol is a very suitable protocol for this type of use.
 
-
 ### IMAP ###
+
+We can say this is the protocol we use to access an email server through web applications (Gmail, Outlook, Yahoo), rather than through email applications running on our computer. The difference between this protocol and the POP3 protocol is that it works in a synchronized manner. This means emails are available for access by any client. This is, of course, because the emails are kept on the server.
+
+**What are the advantages and disadvantages of the IMAP protocol?**
+
+-It is possible to access emails from any desired client application.
+
+-It operates in a synchronized manner. To explain this point with an example, an email deleted on one client will also be in a deleted state on other client applications.
+
+**What are the differences between POP3 and IMAP protocols?**
+
+Technically, the POP3 and IMAP protocols operate with the same underlying logic. Both protocols can be used depending on user preference. To state the most significant difference between these protocols in a few sentences: With the POP3 protocol, you can only view your emails from the device you set it up on, whereas IMAP allows you to access your emails from different devices, such as a computer, mobile phone, and tablet, not just from a single place.
+
+### SMTP(Simple Mail Transfer Protocol) ###
+
+The protocol used to communicate with a remote server to send an email from a client application or web application to the recipient's email server.
+
+I've tried to explain what email servers are in their simplest form. Now, I will try to explain how this email communication works using a diagram.
+
+<img width="951" height="313" alt="email-1" src="https://github.com/user-attachments/assets/c4a3ace9-df83-4557-8633-e21c75e25ebd" />
+
+
+
+
 
 
 
