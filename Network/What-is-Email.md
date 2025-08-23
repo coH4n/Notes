@@ -46,7 +46,7 @@ The protocol used to communicate with a remote server to send an email from a cl
 
 I've tried to explain what email servers are in their simplest form. Now, I will try to explain how this email communication works using a diagram.
 
-<img width="951" height="313" alt="email-1" src="https://github.com/user-attachments/assets/c4a3ace9-df83-4557-8633-e21c75e25ebd" />
+<img width="800" height="313" alt="email-1" src="https://github.com/user-attachments/assets/c4a3ace9-df83-4557-8633-e21c75e25ebd" />
 
 1.An email addressed to xyz@hotmail.com was sent to the other party by an email client named abc@gmail.com
 
