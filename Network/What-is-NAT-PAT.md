@@ -25,7 +25,7 @@ NAT/PAT is the one we use most today, but I will also briefly explain the featur
 
 **Static Nat:** Static NAT is not the type of NAT we use today. Its working principle is to assign a unique Public IPv4 address to each Private IPv4 address. I will try to explain this using the diagram I have drawn.
 
-<img width="300" height="169" alt="resim-1" src="https://github.com/user-attachments/assets/73c69d0d-ef11-40ee-98df-6424b81d07b1" />
+<img width="350" height="169" alt="resim-1" src="https://github.com/user-attachments/assets/73c69d0d-ef11-40ee-98df-6424b81d07b1" />
 
 Here, we have a pool of Private IPv4 addresses and a pool of Public IPv4 addresses. We need to get as many Public IPv4 addresses from our Internet Service Provider as we have users on the Local Area Network.
 
