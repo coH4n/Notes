@@ -4,7 +4,7 @@ Hello everyone, in this article, I will try to introduce one of the questions th
 
 Looking at the handshake structure below, if we need to summarize this handshake process in bullet points:
 
-<img width="350" height="500" alt="ssltls-1" src="https://github.com/user-attachments/assets/f8218eb6-c705-41f4-a6aa-86d624663c3b" />
+<img width="250" height="500" alt="ssltls-1" src="https://github.com/user-attachments/assets/f8218eb6-c705-41f4-a6aa-86d624663c3b" />
 
 **Certificate Check:** This is the step where we declare the authenticity of the other party and come to a mutual agreement.
 
