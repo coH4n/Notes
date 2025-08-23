@@ -48,7 +48,29 @@ I've tried to explain what email servers are in their simplest form. Now, I will
 
 <img width="951" height="313" alt="email-1" src="https://github.com/user-attachments/assets/c4a3ace9-df83-4557-8633-e21c75e25ebd" />
 
+1.An email addressed to xyz@hotmail.com was sent to the other party by an email client named abc@gmail.com
 
+2.First, the email uses the SMTP protocol to communicate and reach the sender's SMTP server.
+
+3.The SMTP server receives the recipient's address (xyz@hotmail.com) and divides it into two parts: the recipient name xyz and the domain name hotmail.com. Since this recipient address is from a different domain, it needs to know the IP address of the recipient's SMTP server. To do this, it asks the DNS for this IP address.
+
+4.DNS smtp.hotmail.com adresini soruyor
+
+5.The DNS returns the IP address.
+
+6.An email is being sent to the smtp.hotmail.com address over the TCP/IP protocol.
+
+7.smtp.hotmail.com separates the incoming mail into two parts: the recipient name xyz and the domain name hotmail.com. The SMTP server then recognizes this email by using the domain name.
+
+8.The email goes to the relevant mail server using the TCP/IP protocol on the smtp.hotmail.com side.
+
+9.The mail.hotmail.com puts the incoming mail into the relevant user's mailbox.
+
+10.The recipient indicates their desire to access their emails using either the IMAP or POP3 protocols via any client application.
+
+11.mail.hotmail.com sunucusu ise ilgili kişinin posta kutusundai mailleri döndürüyor.
+
+Of course, there are many other scenarios in the background, such as being blocked by a firewall, email spoofing, or spam. Email is a vast topic on its own; it's clear that understanding the information in the email codes, as well as the header and body sections, is a very important subject. However, my goal here was to convey the simplest information. Perhaps in the future, I may prepare a more detailed document on how email works.
 
 
 
