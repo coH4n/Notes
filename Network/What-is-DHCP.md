@@ -25,7 +25,7 @@ First of all, we should state that if we're explaining a protocol or something w
 
 I believe that if I explain these concepts using the diagram below, you will have a better grasp of the subject.
 
-<img width="650" height="500" alt="dhcp-1" src="https://github.com/user-attachments/assets/ae12c310-23ed-4241-af3a-7baaa404c362" />
+<img width="650" height="500" alt="dhcp2" src="https://github.com/user-attachments/assets/a8aa2937-12f8-4805-bb04-d52137271e4e" />
 
 If we were to summarize the diagram above in bullet points:
 
