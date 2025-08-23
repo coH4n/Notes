@@ -29,7 +29,7 @@ NAT/PAT is the one we use most today, but I will also briefly explain the featur
 
 Here, we have a pool of Private IPv4 addresses and a pool of Public IPv4 addresses. We need to get as many Public IPv4 addresses from our Internet Service Provider as we have users on the Local Area Network.
 
-<img width="837" height="430" alt="resim-2" src="https://github.com/user-attachments/assets/36f49110-e30c-40d0-ad33-05d379532ec2" />
+<img width="650" height="350" alt="resim-2" src="https://github.com/user-attachments/assets/36f49110-e30c-40d0-ad33-05d379532ec2" />
 
 Looking at the Static NAT working diagram, when data leaving PC1 reaches the router, a conversion from the Private IPv4 address to the Public IPv4 address happens with NAT running on the router. As I mentioned, Static NAT is not a NAT process we see in today's world. This is because of its one-to-one and manual operation, and the fact that the IPv4 address pool is configured manually.
 
