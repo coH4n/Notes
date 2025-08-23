@@ -39,7 +39,7 @@ Looking at the Static NAT working diagram, when data leaving PC1 reaches the rou
 
 First, we have a pool of Private IPv4 addresses.
 
-<img width="823" height="508" alt="resim-3" src="https://github.com/user-attachments/assets/0cadaccf-2418-4e3a-9d60-2d7b557cc052" />
+<img width="600" height="508" alt="resim-3" src="https://github.com/user-attachments/assets/0cadaccf-2418-4e3a-9d60-2d7b557cc052" />
 
 When PC1 with the IP address 192.168.1.10 wants to send data to the internet through port 3000, the NAT/PAT mechanism first writes the Private IPv4 address and port number to the NAT table in their original form. Then, it converts the Private IPv4 address to a Public IPv4 address, and if necessary, it also translates the port number. Afterwards, it finds its place in the table corresponding to the original address. Now, the data is sent to its destination.
 
