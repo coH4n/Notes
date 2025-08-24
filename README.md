@@ -23,3 +23,9 @@ https://github.com/coH4n/Notes/blob/main/Network/What-is-DHCP.md
 
 **SSH-KEY:** https://github.com/coH4n/Notes/blob/main/Encryption/what-is-ssh-key.md
 
+### WEB ###
+
+**Virtualization:** https://github.com/coH4n/Notes/blob/main/Web/Virtualization.md
+
+**Certification authority:** https://github.com/coH4n/Notes/blob/main/Web/what-is-Certificate-authority.md
+
